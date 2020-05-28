@@ -3,10 +3,15 @@
 docker 构建镜像 同步mysql 数据至ES
 
 目录说明：
+
 config --覆盖logstash 自带的yml配置文件 
+
 lastvalue --增量数据实时同步技术文件
+
 Dcokerfile -- 构建镜像文件 
+
 logstash.conf -- 同步数据配置文件
+
 mysql-connector-java-5.1.47.jar --链接mysql驱动、根据不同版本可自行下载
 
 一、构建dockerfile：
